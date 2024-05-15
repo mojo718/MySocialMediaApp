@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "7.0"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "install": "^0.13.0",
+    "npm": "^10.7.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node utils/seed"
+  },
+  "name": "mysocialnetworkbackend",
+  "description": "Backend for my socialnetwork API",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mojo718/MySocialNetworkBackend"
+  },
+  "author": "Ben M",
+  "license": "ISC"
+}
